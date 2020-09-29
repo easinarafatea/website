@@ -1,0 +1,20 @@
+body {
+  background: #333;
+  color: white; }
+
+.totalNav {
+  opacity: 0.7; }
+
+#homeSection {
+  background: url("../img/home.jpg") no-repeat center top;
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed; }
+  #homeSection .home-inner {
+    padding-top: 150px;
+    padding-bottom: 50px; }
+  #homeSection .dark-overlay {
+    background: #00000085;
+    min-height: 700px; }
+  #homeSection .tikIcon {
+    border-radius: 5px; }

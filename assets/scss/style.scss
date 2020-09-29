@@ -1,0 +1,28 @@
+$bg-color: #333;
+$white-color: white;
+$home-sec: #00000085;
+body {
+  background: $bg-color;
+  color: $white-color;
+}
+.totalNav {
+  opacity: 0.7;
+}
+
+#homeSection {
+  background: url("../img/home.jpg") no-repeat center top;
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed;
+  .home-inner {
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+  .dark-overlay {
+    background: $home-sec;
+    min-height: 700px;
+  }
+  .tikIcon {
+    border-radius: 5px;
+  }
+}
